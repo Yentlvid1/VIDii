@@ -1,0 +1,19 @@
+/* CSS Document */
+*, *::after, *::before {
+  box-sizing:border-box;  
+}
+
+html, body {
+  height:100%;
+  margin:0;
+}
+
+button:not([disabled]) {
+  cursor:pointer;
+}
+
+/* jouw CSS vanaf hier */
+
+h1 {
+  color:crimson;
+}
