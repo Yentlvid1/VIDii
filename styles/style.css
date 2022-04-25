@@ -12,8 +12,325 @@ button:not([disabled]) {
   cursor:pointer;
 }
 
-/* jouw CSS vanaf hier */
+:root{
+  --achtergrondkleur: rgb(242, 157, 174);
+  --tekstkop: rgb(228, 44, 80);
+  --tekstschaduw: rgb(248, 222, 234);
+}
+
+
+/***************/
+/* HET KASTEEL */
+/***************/
+.pagina1{
+  background-image:url("../images/kasteel2.png");
+  background-size:auto 90vh;
+  background-position: 5vh 7vh;
+  background-color: var(--achtergrondkleur);
+  border: 1em solid rgb(242, 157, 174);
+  background-repeat: no-repeat;
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+
+/* KOP */
 
 h1 {
-  color:crimson;
+  color: var(--tekstkop);
+  font-family: "Super Mario 256";
+  text-align: center;
+  font-size: 5em;
+  text-shadow: .1em .1em var(--tekstschaduw)
 }
+
+
+/* DE BUTTON - HET RAAM */
+
+button {
+  height: 20vh; width: 17vh;
+  background-image:url("../images/raamkasteel.PNG");
+  background-size: cover;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  position:absolute;
+        top:55vh;
+        left:77vh;
+}
+
+button:hover,button:focus {
+  filter: drop-shadow(2em 2em 5em white);
+}
+
+/* DE DEUREN */
+div.deur {
+  width:6vh;
+  height:16vh;
+  background-color:rgb(81, 59, 6);
+  border: .4em solid rgb(61, 40, 5);
+
+  position:absolute;
+  
+  top:76vh;
+}
+
+div.deur.links {
+  left:77.5vh;
+  border-radius: 2.5em 0em 0em 0em;
+  transition: 1s;
+  transform-origin: left center;
+}
+
+div.deur.rechts {
+  left:83vh;
+  border-radius: 0em 3em 0em 0em;
+  transition: 1s;
+  transform-origin: right center;
+}
+
+div.deur.open.links{
+  transform: perspective(10em) rotateY(-150deg);
+}
+
+div.deur.open.rechts {
+    transform: perspective(10em) rotateY(150deg);
+}
+
+div.achtergrond.deur {
+  left:77.2vh;
+  width:12vh;
+  height:16vh;
+  background-color:rgb(22, 16, 1);
+  border-radius: 2.5em 3em 0em 0em;
+
+  position:absolute;
+  
+  top:76vh;
+}
+
+  .peach1-2 {
+    width: 7.5em;
+    height: auto;
+    position:absolute;
+          top:79vh;
+          left:77.2vh;
+}
+
+
+/* DE INFO */
+@keyframes toad{
+  0% {
+    transform:translateY(0em);
+  } 
+  50% {
+    transform:translateY(-1em);
+  }
+  100% {
+    transform:translateY(0em);
+  }
+}
+
+.toad {
+  width: 9em;
+  height: auto;
+  position:absolute;
+        top:24em;
+        left:84em;
+  animation-name: toad;
+  animation-duration:2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+.beginscherm{
+  font-family: 'Nixie One', cursive;
+  color: black;
+  font-size: 1em;
+
+  background-image: url(../images/spraakwolk.png);
+  background-size: 50vh 25vh;
+  background-position: left center;
+  width: 50vh;
+  height: 25vh;
+  position:absolute;
+        top:23vh;
+        left:105vh;
+
+  padding: 2em 5em 5em 6em;
+}
+
+/* KNOP EI */
+
+.ei {
+  width: 4em;
+  height: 5em;
+  position:absolute;
+        bottom:1vh;
+        right:5vh;
+}
+
+
+.hovertekst {
+    display: none;
+    font-family: "Super Mario 256";
+    filter: drop-shadow(2em 2em 5em rgb(28, 1, 14));
+    position:absolute;
+        bottom:11vh;
+        right:8vh;
+  }
+  
+.ei:hover + .hovertekst {
+    display: block;
+    color: var(--tekstkop);
+  }
+
+
+/*************/
+/* DE KELDER */
+/*************/
+.kelder {
+  position: relative;
+  background-image: url(../images/kelder.jpeg);
+  background-size: 100% 100%;
+  width: 100%;
+  height: 50%;
+  
+}
+
+.peach1 {
+  width: 9em;
+  height: auto;
+  position:absolute;
+        top:12em;
+        left:5em;
+}
+
+.jaartal1 {
+  font-family: "Super Mario 256";
+  color: var(--tekstkop);
+  text-shadow: .1em .1em var(--tekstschaduw);
+  position:absolute;
+        top:14em;
+        left:5em;
+}
+
+.peach2 {
+  width: 9em;
+  height: auto;
+  position:absolute;
+        top:10em;
+        left:20em;
+}
+
+.jaartal2 {
+  font-family: "Super Mario 256";
+  color: var(--tekstkop);
+  text-shadow: .1em .1em var(--tekstschaduw);
+  position:absolute;
+        top:12em;
+        left:25em;
+}
+
+.peach3 {
+  width: 9em;
+  height: auto;
+  position:absolute;
+        top:10em;
+        left:30em;
+}
+
+.jaartal3 {
+  font-family: "Super Mario 256";
+  color: var(--tekstkop);
+  text-shadow: .1em .1em var(--tekstschaduw);
+  position:absolute;
+        top:19em;
+        left:35em;
+}
+
+.peach4 {
+  width: 9em;
+  height: auto;
+  position:absolute;
+        top:6em;
+        left:40em;
+}
+
+.jaartal4 {
+  font-family: "Super Mario 256";
+  color: var(--tekstkop);
+  text-shadow: .1em .1em var(--tekstschaduw);
+  position:absolute;
+        top:9em;
+        left:47em;
+}
+
+.peach5 {
+  width: 9em;
+  height: auto;
+  position:absolute;
+        top:8em;
+        left:58em;
+}
+
+.jaartal5 {
+  font-family: "Super Mario 256";
+  color: var(--tekstkop);
+  text-shadow: .1em .1em var(--tekstschaduw);
+  position:absolute;
+        top:8em;
+        left:66em;
+}
+
+.peach6 {
+  width: 9em;
+  height: auto;
+  position:absolute;
+        top:10em;
+        left:68em;
+}
+
+.jaartal6 {
+  font-family: "Super Mario 256";
+  color: var(--tekstkop);
+  text-shadow: .1em .1em var(--tekstschaduw);
+  position:absolute;
+        top:8em;
+        left:74em;
+}
+
+.peach7 {
+  width: 9em;
+  height: auto;
+  position:absolute;
+        top:12em;
+        left:85em;
+}
+
+.jaartal7 {
+  font-family: "Super Mario 256";
+  color: var(--tekstkop);
+  text-shadow: .1em .1em var(--tekstschaduw);
+  position:absolute;
+        top:10em;
+        left:87em;
+}
+
+.peachik {
+  width: 35em;
+  height: 25em;
+  position:absolute;
+        top:12em;
+        left:79em;
+}
+
+.jaartalik {
+  font-family: "Super Mario 256";
+  color: var(--tekstkop);
+  text-shadow: .1em .1em var(--tekstschaduw);
+  position:absolute;
+        top:10em;
+        left:95em;
+}
+
