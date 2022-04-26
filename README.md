@@ -54,7 +54,7 @@ Mijn startniveau is blauw
 
   #### oplossing:
   Uiteindelijk bleek de achtergrond ook niet geschikt te zijn om het design responsive te maken. Daarom heb ik gekozen voor een andere kleinere afbeelding die scherper is. 
- 
+ <img src="../images/kasteel.png" width="375px" alt="tweede kasteel">
 
 
   ### Bevinding 2:
@@ -164,7 +164,7 @@ Mijn startniveau is blauw
 
 Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
-1. bron 1
+1. MarioWiki https://www.mariowiki.com/Princess_Peach#Super_Princess_Peach
 2. bron 2
 3. ...
 
