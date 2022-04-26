@@ -173,7 +173,7 @@ Mijn startniveau is blauw
 Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
 1. MarioWiki https://www.mariowiki.com/Princess_Peach#Super_Princess_Peach
-2. bron 2
-3. ...
+2. Emoij regen code https://codepen.io/robertheiser/pen/NXrqXa
+3. Informatie en plaatjes peach https://katewillaert.tumblr.com/post/56117862900/princess-peach
 
 </details>
