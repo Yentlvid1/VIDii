@@ -137,10 +137,11 @@ Mijn startniveau is blauw
 ## Reflectie
 
 <details>
-  <summary>Mijn eindresultaat & persoonlijke ontwikkeling</summary>
+  <summary>Mijn eindresultaat & persoonlijke ontwikkeling</summary>!
+
 
   ### Je uitkomst - karakteristiek screenshot(s):
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="final ontwerp">
+    [Uploading Schermafbeelding 2022-04-26 om 14.01.11.png…]()
 
 
   ### Dit ging goed/Heb ik geleerd: 
