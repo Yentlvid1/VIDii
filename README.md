@@ -54,23 +54,20 @@ Mijn startniveau is blauw
 
   #### oplossing:
   Uiteindelijk bleek de achtergrond ook niet geschikt te zijn om het design responsive te maken. Daarom heb ik gekozen voor een andere kleinere afbeelding die scherper is. 
- <img src="../images/kasteel.png" width="375px" alt="tweede kasteel">
+ <img src="../images/kasteel.png" width="375px" alt="tweedekasteel">
 
 
   ### Bevinding 2:
   Waar plaats je de informatie? Misschien scherm 3/4 vullen en dan de overige ruimte hiervoor gebruiken. Of iets aan de onderkant laten uitklappen. (progressive disclosure). Of de informatie laten zien op het kasteel zelf?
-  <img src="readme-images/tweede-schets.jpg" width="375px" alt="tweede versie/schets">
 
   #### oplossing:
-  Ik heb er voor gekozen om aan de zijkant een stuk perkament te plaatsten waar de informatie op terecht komt. 
-
+  Ik heb er voor gekozen om aan de zijkant een stuk perkament te plaatsten waar de informatie op terecht komt. Toad h
+ <img src="readme-images/tweede-schets.jpg" width="375px" alt="tweede versie/schets">
 
 
   ### Bevinding 3:
   Welke besturing ga je gebruiken? Ik denk dat pijltjestoetsen hierbij wel leuk is.
-  
-  #### oplossing: 
-  Ik heb er voor gekozen om de navigatie via het raam te laten gaan. 
+  ...
 
 </details>
 
@@ -137,21 +134,20 @@ Mijn startniveau is blauw
 ## Reflectie
 
 <details>
-  <summary>Mijn eindresultaat & persoonlijke ontwikkeling</summary>!
-
+  <summary>Mijn eindresultaat & persoonlijke ontwikkeling</summary>
 
   ### Je uitkomst - karakteristiek screenshot(s):
-    [Uploading Schermafbeelding 2022-04-26 om 14.01.11.png…]()
-
+  <img src="readme-images/eindscherm.png" width="375px" alt="final ontwerp">
+  <img src="readme-images/eindschermkelder.png" width="375px" alt="final ontwerp">
 
   ### Dit ging goed/Heb ik geleerd: 
-  Korte omschrijving met plaatje(s)
+  In principe letterlijk alles wat je in de code en interface kunt zien (haha). Van de volgorde en termen van HTML tot het opmaken in CSS. Ik heb ook Javascript gebruikt al heb ik daar veel hulp voor gehad. Ik begrijp nu wat er ongeveer staat maar zelf ben ik deze taal nog niet zo vaardig als ik HTML en CSS nu ben. Ik heb geleerd hoe ik elementen maak, verplaats en opmaak maar ook hoe ik animeer en states toevoeg. Toch denk ik dat het meest waardevolle wat ik heb geleerd de taal opzich is. Ik begrjp de basics en kan overleggen met developers (en wat ze mee maken tijdens coderen)
 
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
 
 
   ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatje(s)
+  Alles is lastig als je niet weet hoe het moet. Door veel te vragen, te kijken en te zoeken heb ik uiteindelijk op dat moment begrepen wat er gebeurde. Moet ik sommige dingen nu zelf opnieuw gaan doen, denk ik dat ik het weer lastig vind zoals de eerste keer. Ik heb nu wel een voorbeeld die ik in de toekomst erbij kan pakken om te kijken hoe ik nu verschillende elementen heb gemaakt. 
 
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
 </details>
