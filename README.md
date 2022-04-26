@@ -54,20 +54,25 @@ Mijn startniveau is blauw
 
   #### oplossing:
   Uiteindelijk bleek de achtergrond ook niet geschikt te zijn om het design responsive te maken. Daarom heb ik gekozen voor een andere kleinere afbeelding die scherper is. 
- <img src="readme-images/eerste-schets.jpg" width="375px" alt="eerste versie/schets">
+  <img src="readme-images/kasteel2.png" width="375px" alt="kasteel2">
 
 
   ### Bevinding 2:
   Waar plaats je de informatie? Misschien scherm 3/4 vullen en dan de overige ruimte hiervoor gebruiken. Of iets aan de onderkant laten uitklappen. (progressive disclosure). Of de informatie laten zien op het kasteel zelf?
 
   #### oplossing:
-  Ik heb er voor gekozen om aan de zijkant een stuk perkament te plaatsten waar de informatie op terecht komt. Toad h
+  Ik heb er voor gekozen om aan de zijkant een stuk perkament te plaatsten waar de informatie op terecht komt. Toad verteld als het ware wat er staat net zoals in de game gebeurd. 
+
  <img src="readme-images/tweede-schets.jpg" width="375px" alt="tweede versie/schets">
 
 
   ### Bevinding 3:
   Welke besturing ga je gebruiken? Ik denk dat pijltjestoetsen hierbij wel leuk is.
-  ...
+
+  #### oplossing:
+  Ik heb er voor geklozen om het raam de navigatie te laten zijn. Zelf vond ik dit een creatieve en originele manier en weer eens anders dan de pijltjestoetsen. Wanneer je over het raam heen hovert licht hij op om de gebruiker duidelijk te maken dat je er op kunt klikken. Ook het openingsbericht geeft aan dat de gebruiker op het magische raam moet klikken om te starten. 
+
+   <img src="readme-images/raamnavigatie.png" width="375px" alt="raamnavigatie">
 
 </details>
 
@@ -85,7 +90,7 @@ Mijn startniveau is blauw
   #### oplossing:
   Als grapje/easteregg heb ik mijzelf als de nieuwste versie van peach neergezet. 
   <img src="readme-images/easteregg-ik.png" width="375px" alt="ik">
-  <img src="readme-images/easteregg.png" width="375px" alt="easteregg">
+  <img src="readme-images/easteregg .png" width="375px" alt="easteregg">
   <img src="readme-images/easteregg-hover.png" width="375px" alt="easteregg-hover">
 
   ### Bevinding 2:
@@ -121,7 +126,7 @@ Mijn startniveau is blauw
 
   #### oplossing:
   Toad vertelde eerst alleen welk jaartal en spel er hoorde bij de peach die in de deur stond. Nu heb ik daar een extra stukje over de game bijgevoegd voor wat meer context. 
-
+  <img src="readme-images/teksttoevoeging.png" width="375px" alt="tekst">
 
 
   ### Bevinding 3:
