@@ -46,7 +46,7 @@ Mijn startniveau is blauw
 ## Voortgang/Feedback 1
 
 <details>
-  <summary>Mijn bevindingen + wijzigingen (minimaal 5)</summary>
+  <summary>Mijn bevindingen + wijzigingen (Carmen)</summary>
 
   ### Bevinding 1:
   "Kijk wel even naar de achtergrond of die een wat hogere resolutie kan krijgen."
@@ -54,7 +54,7 @@ Mijn startniveau is blauw
 
   #### oplossing:
   Uiteindelijk bleek de achtergrond ook niet geschikt te zijn om het design responsive te maken. Daarom heb ik gekozen voor een andere kleinere afbeelding die scherper is. 
- <img src="../images/kasteel.png" width="375px" alt="tweedekasteel">
+ <img src="readme-images/eerste-schets.jpg" width="375px" alt="eerste versie/schets">
 
 
   ### Bevinding 2:
@@ -77,21 +77,22 @@ Mijn startniveau is blauw
 ## Voortgang/Feedback 2
 
 <details>
-  <summary>Mijn bevindingen + wijzigingen (minimaal 5)</summary>
+  <summary>Mijn bevindingen + wijzigingen (Noa)</summary>
   
   ### Bevinding 1:
-  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+  Misschien kan je bedenken waar je een easteregg kan plaatsen.
 
   #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
-
-
+  Als grapje/easteregg heb ik mijzelf als de nieuwste versie van peach neergezet. 
+  <img src="readme-images/easteregg-ik.png" width="375px" alt="ik">
+  <img src="readme-images/easteregg.png" width="375px" alt="easteregg">
+  <img src="readme-images/easteregg-hover.png" width="375px" alt="easteregg-hover">
 
   ### Bevinding 2:
-  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+  Maak de jaartallen wat groter zodat ze beter te lezen zijn.
 
   #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
+  Jaartallen groter gemaakt en schaduw toegevoegd voor meer contrast en betere leesbaarheid. Ik heb hier helaas geen "before" foto van maar eerst was de tekst de helfd kleiner zonder schaduw.
 
 
 
@@ -105,13 +106,13 @@ Mijn startniveau is blauw
 ## Voortgang/Feedback 3
 
 <details>
-  <summary>Mijn bevindingen + wijzigingen (minimaal 5)</summary>
+  <summary>Mijn bevindingen + wijzigingen (Tessa)</summary>
   
   ### Bevinding 1:
   Zorg dat de emoij regen stopt want dit leidt af van de interface.
 
   #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
+  Ik was het hier helemaal mee eens. Ik wilde dat de regen na 1 keer vallen stopte. Uiteindelijk na veel zoeken en proberen heb ik toch Sanne moeten vragen aangezien het niet lukte. Hij heeft toen vervolgens iets met if, this, else en remove gedaan en toen was het gefixt! De regen valt nu 1 keer bij het landen op de pagina als welkom, daarna is het weg en is alle aandacht bij de interface. 
 
 
 
@@ -119,12 +120,16 @@ Mijn startniveau is blauw
   Voeg wat meer tekst toe. 
 
   #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
+  Toad vertelde eerst alleen welk jaartal en spel er hoorde bij de peach die in de deur stond. Nu heb ik daar een extra stukje over de game bijgevoegd voor wat meer context. 
 
 
 
   ### Bevinding 3:
   Haal het zwarte vlak beneden weg. 
+
+  #### oplossing:
+  Ik heb even moeten uitzoeken welk van de afbeeldingen te groot was waardoor de zwart ruimte zichtbaar was. Uiteindelijk bleek dat mijn "eigen" peach te zijn. Daarom heb ik de randen van deze foto even afgesneden en opnieuw geplaatst. Hierdoor verdween de zwarte ruimte. 
+
 
 </details>
 
@@ -143,13 +148,12 @@ Mijn startniveau is blauw
   ### Dit ging goed/Heb ik geleerd: 
   In principe letterlijk alles wat je in de code en interface kunt zien (haha). Van de volgorde en termen van HTML tot het opmaken in CSS. Ik heb ook Javascript gebruikt al heb ik daar veel hulp voor gehad. Ik begrijp nu wat er ongeveer staat maar zelf ben ik deze taal nog niet zo vaardig als ik HTML en CSS nu ben. Ik heb geleerd hoe ik elementen maak, verplaats en opmaak maar ook hoe ik animeer en states toevoeg. Toch denk ik dat het meest waardevolle wat ik heb geleerd de taal opzich is. Ik begrjp de basics en kan overleggen met developers (en wat ze mee maken tijdens coderen)
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
 
 
   ### Dit was lastig/Is niet gelukt:
   Alles is lastig als je niet weet hoe het moet. Door veel te vragen, te kijken en te zoeken heb ik uiteindelijk op dat moment begrepen wat er gebeurde. Moet ik sommige dingen nu zelf opnieuw gaan doen, denk ik dat ik het weer lastig vind zoals de eerste keer. Ik heb nu wel een voorbeeld die ik in de toekomst erbij kan pakken om te kijken hoe ik nu verschillende elementen heb gemaakt. 
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+  
 </details>
 
 
@@ -164,7 +168,7 @@ Mijn startniveau is blauw
 Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
 1. MarioWiki https://www.mariowiki.com/Princess_Peach#Super_Princess_Peach
-2. Code voor emoij regen https://codepen.io/robertheiser/pen/NXrqXa
+2. bron 2
 3. ...
 
 </details>
