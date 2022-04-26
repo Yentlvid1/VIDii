@@ -13,10 +13,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 ## Jij
 
 ### Ontwerper:
-Sanne 't Hooft (vervangen door jouw naam)
+Yentl Reus
 
 #### Je startniveau:
-Mijn startniveau is: hier je startniveau (kies uit zwart, rood óf blauw)
+Mijn startniveau is blauw
 
 
 
@@ -25,18 +25,18 @@ Mijn startniveau is: hier je startniveau (kies uit zwart, rood óf blauw)
 # Je plan
 
 <details open>
-  <summary>De eerste versie/schets van je ontwerp & je persoonlijke uitdaging</summary>
+  <summary>Deze opdracht is een mega uitdaging voor mij. Dit aangezien ik nog nooit in mijn leven eerder heb gewerkt met code. Als ik een werkend design heb neergezet denk ik dat </summary>
 
   ### De eerste versie/schets:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="eerste versie/schets">
+  <img src="readme-images/eerste-schets.jpg" width="375px" alt="eerste versie/schets">
 
 
   ### Je ambitie: 
   Aan deze technieken/punten wil ik werken:
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - Code kunnen begrijpen
+  - Website werkend maken
+  - De "basics" onder de knie krijgen
+  
  
 </details>
 
@@ -49,22 +49,25 @@ Mijn startniveau is: hier je startniveau (kies uit zwart, rood óf blauw)
   <summary>Mijn bevindingen + wijzigingen (minimaal 5)</summary>
 
   ### Bevinding 1:
-  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+  "Kijk wel even naar de achtergrond of die een wat hogere resolutie kan krijgen."
+  
 
   #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
-
+  Uiteindelijk bleek de achtergrond ook niet geschikt te zijn om het design responsive te maken. Daarom heb ik gekozen voor een andere kleinere afbeelding die scherper is. 
+ 
 
 
   ### Bevinding 2:
-  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+  Waar plaats je de informatie? Misschien scherm 3/4 vullen en dan de overige ruimte hiervoor gebruiken. Of iets aan de onderkant laten uitklappen. (progressive disclosure). Of de informatie laten zien op het kasteel zelf?
+  <img src="readme-images/tweede-schets.jpg" width="375px" alt="tweede versie/schets">
 
   #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
+  Ik heb er voor gekozen om aan de zijkant een stuk perkament te plaatsten waar de informatie op terecht komt. 
 
 
 
   ### Bevinding 3:
+  Welke besturing ga je gebruiken? Ik denk dat pijltjestoetsen hierbij wel leuk is.
   ...
 
 </details>
@@ -106,7 +109,7 @@ Mijn startniveau is: hier je startniveau (kies uit zwart, rood óf blauw)
   <summary>Mijn bevindingen + wijzigingen (minimaal 5)</summary>
   
   ### Bevinding 1:
-  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+  Zorg dat de emoij regen stopt want dit leidt af van de interface.
 
   #### oplossing:
   Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
@@ -114,7 +117,7 @@ Mijn startniveau is: hier je startniveau (kies uit zwart, rood óf blauw)
 
 
   ### Bevinding 2:
-  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+  Voeg wat meer tekst toe. 
 
   #### oplossing:
   Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
@@ -122,7 +125,7 @@ Mijn startniveau is: hier je startniveau (kies uit zwart, rood óf blauw)
 
 
   ### Bevinding 3:
-  ...
+  Haal het zwarte vlak beneden weg. 
 
 </details>
 

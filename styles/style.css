@@ -18,6 +18,45 @@ button:not([disabled]) {
   --tekstschaduw: rgb(248, 222, 234);
 }
 
+/***************/
+/* Emoij regen */
+/***************/
+
+body{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  background: #000;
+  font-family: 'Oswald', sans-serif;
+}
+
+
+#container {
+  left: 0px;
+  top: 0vh;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+
+#animate{
+  margin: 0 auto;
+  width: 20px;
+  overflow: visible;
+  position: relative;
+}
+
+
+#all{
+  overflow: hidden;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+}
+
+
+
 
 /***************/
 /* HET KASTEEL */
@@ -156,8 +195,9 @@ div.achtergrond.deur {
   position:absolute;
         top:23vh;
         left:105vh;
+  overflow: hidden;
 
-  padding: 2em 5em 5em 6em;
+  padding: 3em 5em 6em 7em;
 }
 
 /* KNOP EI */
@@ -168,13 +208,17 @@ div.achtergrond.deur {
   position:absolute;
         bottom:1vh;
         right:5vh;
+  z-index: 100;
 }
 
+.ei:hover {
+  filter: drop-shadow(2em 2em 5em rgb(28, 1, 14));
+}
 
 .hovertekst {
     display: none;
     font-family: "Super Mario 256";
-    filter: drop-shadow(2em 2em 5em rgb(28, 1, 14));
+    text-shadow:.1em .1em var(--tekstschaduw);
     position:absolute;
         bottom:11vh;
         right:8vh;
@@ -186,6 +230,7 @@ div.achtergrond.deur {
   }
 
 
+
 /*************/
 /* DE KELDER */
 /*************/
@@ -195,24 +240,26 @@ div.achtergrond.deur {
   background-size: 100% 100%;
   width: 100%;
   height: 50%;
-  
 }
 
+
 .peach1 {
-  width: 9em;
+  width: 15vh;
   height: auto;
   position:absolute;
-        top:12em;
-        left:5em;
+        top:24vh;
+        left:12vh;
 }
+
 
 .jaartal1 {
   font-family: "Super Mario 256";
   color: var(--tekstkop);
   text-shadow: .1em .1em var(--tekstschaduw);
+  font-size: 1.5em;
   position:absolute;
-        top:14em;
-        left:5em;
+        top:7em;
+        left:6em;
 }
 
 .peach2 {
@@ -220,23 +267,24 @@ div.achtergrond.deur {
   height: auto;
   position:absolute;
         top:10em;
-        left:20em;
+        left:16em;
 }
 
 .jaartal2 {
   font-family: "Super Mario 256";
   color: var(--tekstkop);
   text-shadow: .1em .1em var(--tekstschaduw);
+  font-size: 1.5em;
   position:absolute;
-        top:12em;
-        left:25em;
+        top:4em;
+        left:13em;
 }
 
 .peach3 {
   width: 9em;
   height: auto;
   position:absolute;
-        top:10em;
+        top:13em;
         left:30em;
 }
 
@@ -244,16 +292,17 @@ div.achtergrond.deur {
   font-family: "Super Mario 256";
   color: var(--tekstkop);
   text-shadow: .1em .1em var(--tekstschaduw);
+  font-size: 1.5em;
   position:absolute;
-        top:19em;
-        left:35em;
+        top:6em;
+        left:22em;
 }
 
 .peach4 {
   width: 9em;
   height: auto;
   position:absolute;
-        top:6em;
+        top:11em;
         left:40em;
 }
 
@@ -261,60 +310,64 @@ div.achtergrond.deur {
   font-family: "Super Mario 256";
   color: var(--tekstkop);
   text-shadow: .1em .1em var(--tekstschaduw);
+  font-size: 1.5em;
   position:absolute;
-        top:9em;
-        left:47em;
+        top:5em;
+        left:29em;
 }
 
 .peach5 {
   width: 9em;
   height: auto;
   position:absolute;
-        top:8em;
-        left:58em;
+        top:14em;
+        left:54em;
 }
 
 .jaartal5 {
   font-family: "Super Mario 256";
   color: var(--tekstkop);
   text-shadow: .1em .1em var(--tekstschaduw);
+  font-size: 1.5em;
   position:absolute;
-        top:8em;
-        left:66em;
+        top:7em;
+        left:38em;
 }
 
 .peach6 {
   width: 9em;
   height: auto;
   position:absolute;
-        top:10em;
-        left:68em;
+        top:12em;
+        left:63em;
 }
 
 .jaartal6 {
   font-family: "Super Mario 256";
   color: var(--tekstkop);
   text-shadow: .1em .1em var(--tekstschaduw);
+  font-size: 1.5em;
   position:absolute;
-        top:8em;
-        left:74em;
+        top:5em;
+        left:44em;
 }
 
 .peach7 {
   width: 9em;
   height: auto;
   position:absolute;
-        top:12em;
-        left:85em;
+        top:14em;
+        left:76em;
 }
 
 .jaartal7 {
   font-family: "Super Mario 256";
   color: var(--tekstkop);
   text-shadow: .1em .1em var(--tekstschaduw);
+  font-size: 1.5em;
   position:absolute;
-        top:10em;
-        left:87em;
+        top:7em;
+        left:52em;
 }
 
 .peachik {
@@ -329,8 +382,9 @@ div.achtergrond.deur {
   font-family: "Super Mario 256";
   color: var(--tekstkop);
   text-shadow: .1em .1em var(--tekstschaduw);
+  font-size: 1.5em;
   position:absolute;
-        top:10em;
-        left:95em;
+        top:6em;
+        left:63em;
 }
 
