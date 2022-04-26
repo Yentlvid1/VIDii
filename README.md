@@ -68,7 +68,9 @@ Mijn startniveau is blauw
 
   ### Bevinding 3:
   Welke besturing ga je gebruiken? Ik denk dat pijltjestoetsen hierbij wel leuk is.
-  ...
+  
+  #### oplossing: 
+  Ik heb er voor gekozen om de navigatie via het raam te laten gaan. 
 
 </details>
 
