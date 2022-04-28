@@ -104,7 +104,7 @@ Mijn startniveau is blauw
 
   #### oplossing: 
   Ik heb daarom bedacht om een knop te maken die naar de kelder leidt. Ik heb gekozen voor een yoshi ei uit de game om bij te dragen aan het verhaal in mijn interface. In eerst in stantie is het een normaal ei, maar als je er overheen hovert verschijnt er een schaduw en het woord "overzicht" om duidelijk te maken waar de knop heen lijdt. 
-    <img src="readme-images/easteregg .png" width="375px" alt="easteregg">
+  <img src="readme-images/easteregg .png" width="375px" alt="easteregg">
   <img src="readme-images/easteregg-hover.png" width="375px" alt="easteregg-hover">
 
 </details>
@@ -127,7 +127,7 @@ Mijn startniveau is blauw
   "Voeg wat meer tekst toe."
 
   #### oplossing:
-  Toad vertelde eerst alleen welk jaartal en spel er hoorde bij de peach die in de deur stond. Nu heb ik daar een extra stukje over de game die bij de peach op dat moment hoort bijgevoegd voor wat meer context. 
+  Toad vertelde eerst alleen welk jaartal en spel er hoorde bij de peach die in de deur stond. Nu heb ik daar een extra stukje over de game die bij de peach op dat moment hoort bijgevoegd voor wat meer context. Ook heb ik het perkament ingewisseld voor een pixel tekstwolk, dit past beter bij de mario stijl.
   <img src="readme-images/teksttoevoeging.png" width="375px" alt="tekst">
 
 
