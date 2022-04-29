@@ -1,3 +1,13 @@
+
+@font-face {
+  font-family: 'mario';
+  src: url('../Fonts/supermario256-webfont.woff2') format('woff2'),
+       url('../Fonts/supermario256-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
 /* CSS Document */
 *, *::after, *::before {
   box-sizing:border-box;  
@@ -80,7 +90,7 @@ body{
 
 h1 {
   color: var(--tekstkop);
-  font-family: "Super Mario 256";
+  font-family: "mario";
   text-align: center;
   font-size: 5em;
   text-shadow: .1em .1em var(--tekstschaduw)
@@ -200,7 +210,9 @@ div.achtergrond.deur {
         left:105vh;
   overflow: hidden;
 
-  padding: 3em 5em 6em 7em;
+  padding: 0em 6em 3.5em 6.5em;
+  display: grid;
+  place-items: center;
 }
 
 /* KNOP EI */
@@ -256,7 +268,7 @@ div.achtergrond.deur {
 
 
 .jaartal1 {
-  font-family: "Super Mario 256";
+  font-family: "mario";
   color: var(--tekstkop);
   text-shadow: .1em .1em var(--tekstschaduw);
   font-size: 1.5em;
@@ -274,7 +286,7 @@ div.achtergrond.deur {
 }
 
 .jaartal2 {
-  font-family: "Super Mario 256";
+  font-family: "mario";
   color: var(--tekstkop);
   text-shadow: .1em .1em var(--tekstschaduw);
   font-size: 1.5em;
@@ -292,7 +304,7 @@ div.achtergrond.deur {
 }
 
 .jaartal3 {
-  font-family: "Super Mario 256";
+  font-family: "mario";
   color: var(--tekstkop);
   text-shadow: .1em .1em var(--tekstschaduw);
   font-size: 1.5em;
@@ -310,7 +322,7 @@ div.achtergrond.deur {
 }
 
 .jaartal4 {
-  font-family: "Super Mario 256";
+  font-family: "mario";
   color: var(--tekstkop);
   text-shadow: .1em .1em var(--tekstschaduw);
   font-size: 1.5em;
@@ -328,7 +340,7 @@ div.achtergrond.deur {
 }
 
 .jaartal5 {
-  font-family: "Super Mario 256";
+  font-family: "mario";
   color: var(--tekstkop);
   text-shadow: .1em .1em var(--tekstschaduw);
   font-size: 1.5em;
@@ -346,7 +358,7 @@ div.achtergrond.deur {
 }
 
 .jaartal6 {
-  font-family: "Super Mario 256";
+  font-family: "mario";
   color: var(--tekstkop);
   text-shadow: .1em .1em var(--tekstschaduw);
   font-size: 1.5em;
@@ -364,7 +376,7 @@ div.achtergrond.deur {
 }
 
 .jaartal7 {
-  font-family: "Super Mario 256";
+  font-family: "mario";
   color: var(--tekstkop);
   text-shadow: .1em .1em var(--tekstschaduw);
   font-size: 1.5em;
@@ -382,7 +394,7 @@ div.achtergrond.deur {
 }
 
 .jaartalik {
-  font-family: "Super Mario 256";
+  font-family: "mario";
   color: var(--tekstkop);
   text-shadow: .1em .1em var(--tekstschaduw);
   font-size: 1.5em;
